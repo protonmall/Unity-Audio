@@ -1,0 +1,132 @@
+{
+    "user": 
+    [
+        {
+            "id": "number",
+            "name": "string",
+            "email": "string",
+            "hash": "string",
+            "registerDate": "string",
+            "plan": "string",
+            "coins": "number",
+            "resources":
+            {
+                "maxWorldSlots": "number",
+                "worldSlots": "number",
+                "maxStorage": "number",
+                "storage": "number",
+                "maxPlugins": "number",
+                "plugins": "number",
+                "maxBackups": "number",
+                "backups": "number"
+            },
+            "payments":
+            [
+                {
+                    "id": "number",
+                    "title": "string",
+                    "price": "number",
+                    "date": "string"
+                }
+            ],
+            "notifications": 
+            [
+                {
+                    "id": "number",
+                    "title": "string",
+                    "description": "string"
+                }
+            ],
+            "worlds":
+            [
+                {
+                    "id": "number",
+                    "main":
+                    {
+                        "name": "string",
+                        "description": "string",
+                        "status": "string",
+                        "maxPlayers": "number",
+                        "players": "number",
+                        "uptime": "number"
+                    },
+                    "appearance": 
+                    {
+                        "category": "string",
+                        "visibility": "boolean",
+                        "icons":
+                        [
+                            {
+                                "id": "number",
+                                "name": "string",
+                                "imgUrl": "string",
+                                "selected": "boolean"
+                            }
+                        ]
+                    },
+                    "enabledPlugins":
+                    [
+                        {
+                            "id": "number"
+                        }
+                    ],
+                    "backups":
+                    [
+                        {
+                            "id": "number",
+                            "date": "string",
+                            "size": "number"
+                        }
+                    ],
+                    "properties":
+                    {
+                        "announceAdvancements": "boolean",
+                        "blockExplosionDropDecay": "boolean",
+                        "commandBlockOutput": "boolean",
+                        "commandModificationBlockLimit": "number",
+                        "disableElytraMovementCheck": "boolean",
+                        "disableRaids": "boolean",
+                        "doDaylightCycle": "boolean",
+                        "doEntityDrops": "boolean",
+                        "doFireTick": "boolean",
+                        "doInsomnia": "boolean",
+                        "doImmediateRespawn": "boolean",
+                        "doLimitedCrafting": "boolean",
+                        "doMobLoot": "boolean",
+                        "doMobSpawning": "boolean",
+                        "doPatrolSpawning": "boolean",
+                        "doTileDrops": "boolean",
+                        "doTraderSpawning": "boolean",
+                        "doVinesSpread": "boolean",
+                        "doWeatherCycle": "boolean",
+                        "doWardenSpawning": "boolean",
+                        "drowningDamage": "boolean",
+                        "enderPearlsVanishOnDeath": "boolean",
+                        "fallDamage": "boolean",
+                        "fireDamage": "boolean",
+                        "forgiveDeadPlayers": "boolean",
+                        "freezeDamage": "boolean",
+                        "globalSoundEvents": "boolean",
+                        "keepInventory": "boolean",
+                        "lavaSourceConversion": "boolean",
+                        "maxEntityCramming": "number",
+                        "mobExplosionDropDecay": "boolean",
+                        "mobGriefing": "boolean",
+                        "naturalRegeneration": "boolean",
+                        "playersSleepingPercentage": "number",
+                        "randomTickSpeed": "number",
+                        "reducedDebugInfo": "boolean",
+                        "sendCommandFeedback": "boolean",
+                        "showDeathMessages": "boolean",
+                        "snowAccumulationHeight": "number",
+                        "spawnRadius": "number",
+                        "spectatorsGenerateChunks": "boolean",
+                        "tntExplosionDropDecay": "boolean",
+                        "universalAnger": "boolean",
+                        "waterSourceConversion": "boolean"
+                    }
+                }
+            ]
+        }
+    ]
+}
